@@ -5,7 +5,7 @@ import UserProfile from './pages/UserProfile';
 import ActiveUsers from './components/ActiveUsers';
 import UserGuidelines from './components/UserGuidelines';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [socket, setSocket] = useState(null);
